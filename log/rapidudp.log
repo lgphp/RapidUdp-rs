@@ -1,0 +1,30 @@
+2021-04-29T17:12:07.209185+08:00 [76079-tokio-runtime-worker-123145437913088 -{ERROR: unexpected '('}{ERROR: unexpected ')'}] INFO - udp 服务监控启动...
+2021-04-29T17:12:07.210170+08:00 [76079-tokio-runtime-worker-123145433694208 -{ERROR: unexpected '('}{ERROR: unexpected ')'}] INFO - Web服务启动 on http://0.0.0.0:38100
+2021-04-29T17:12:07.210310+08:00 [76079-tokio-runtime-worker-123145444241408 -{ERROR: unexpected '('}{ERROR: unexpected ')'}] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/getUsingUdpList
+2021-04-29T17:12:07.216889+08:00 [76079-tokio-runtime-worker-123145444241408 -{ERROR: unexpected '('}{ERROR: unexpected ')'}] INFO - get using udp OK! status: 200
+2021-04-29T17:12:07.217905+08:00 [76079-tokio-runtime-worker-123145444241408 -{ERROR: unexpected '('}1929931231321231{ERROR: unexpected ')'}] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/registerUdp
+2021-04-29T17:12:07.223556+08:00 [76079-tokio-runtime-worker-123145444241408 -{ERROR: unexpected '('}1929931231321231{ERROR: unexpected ')'}] INFO - register self to master  OK! status: 200
+2021-04-29T17:13:00.827642+08:00 [76130-tokio-runtime-worker-123145419554816 -] INFO - udp 服务监控启动...
+2021-04-29T17:13:00.828615+08:00 [76130-tokio-runtime-worker-123145413226496 -] INFO - Web服务启动 on http://0.0.0.0:38100
+2021-04-29T17:13:00.828886+08:00 [76130-tokio-runtime-worker-123145404788736 -] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/getUsingUdpList
+2021-04-29T17:13:00.837799+08:00 [76130-tokio-runtime-worker-123145404788736 -] INFO - get using udp OK! status: 200
+2021-04-29T17:13:00.838811+08:00 [76130-tokio-runtime-worker-123145404788736 -1929931231321231] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/registerUdp
+2021-04-29T17:13:00.843952+08:00 [76130-tokio-runtime-worker-123145404788736 -1929931231321231] INFO - register self to master  OK! status: 200
+2021-04-29T17:15:57.036957+08:00 [76328-tokio-runtime-worker-123145385123840 -] INFO - udp 服务监控启动...
+2021-04-29T17:15:57.038092+08:00 [76328-tokio-runtime-worker-123145378795520 -] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/getUsingUdpList
+2021-04-29T17:15:57.038881+08:00 [76328-tokio-runtime-worker-123145383014400 -] INFO - Web服务启动 on http://0.0.0.0:38100
+2021-04-29T17:15:57.044184+08:00 [76328-tokio-runtime-worker-123145378795520 -] INFO - get using udp OK! status: 200
+2021-04-29T17:15:57.044976+08:00 [76328-tokio-runtime-worker-123145378795520 -] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/registerUdp
+2021-04-29T17:15:57.048196+08:00 [76328-tokio-runtime-worker-123145378795520 -] INFO - register self to master  OK! status: 200
+2021-04-29T17:16:23.516271+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - UDP 启动成功....192.168.201.159:20031
+2021-04-29T17:16:23.516827+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/reportStatus
+2021-04-29T17:16:23.520692+08:00 [76328-tokio-runtime-worker-123145380904960 -1929931231321231] INFO - UDP 启动成功....192.168.201.159:20003
+2021-04-29T17:16:23.521292+08:00 [76328-tokio-runtime-worker-123145380904960 -1929931231321231] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/reportStatus
+2021-04-29T17:16:23.528834+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - report udpserver  status OK! status: 200
+2021-04-29T17:16:23.535230+08:00 [76328-tokio-runtime-worker-123145380904960 -1929931231321231] INFO - report udpserver  status OK! status: 200
+2021-04-29T17:16:45.083667+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - 192.168.201.159:20031===>退出
+2021-04-29T17:16:45.083800+08:00 [76328-tokio-runtime-worker-123145372467200 -] INFO - 192.168.201.159:20003===>退出
+2021-04-29T17:16:45.084220+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/reportStatus
+2021-04-29T17:16:45.084303+08:00 [76328-tokio-runtime-worker-123145372467200 -] INFO - sending request POST http://192.168.201.159:7111/fastMaster/v1/reportStatus
+2021-04-29T17:16:45.102843+08:00 [76328-tokio-runtime-worker-123145383014400 -1929931231321231] INFO - report udpserver  status OK! status: 200
+2021-04-29T17:16:45.104810+08:00 [76328-tokio-runtime-worker-123145372467200 -] INFO - report udpserver  status OK! status: 200
