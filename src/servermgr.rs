@@ -17,7 +17,7 @@ pub fn udp_monitor(){
         unsafe {
             if let Some(ref mut m)= UDP_LIST{
                 m.entries().iter().for_each(  |(k,v)| {
-                    if Local::now().timestamp_millis() - v > 1000*20 {
+                    if Local::now().timestamp_millis() - v > 1000*300 {
                         let raddr:SocketAddr = k.to_string().parse().unwrap();
                         //发送一个指令使其退出
                         socket.connect(raddr).unwrap();
